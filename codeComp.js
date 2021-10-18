@@ -127,3 +127,14 @@ var testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+
+// Setup
+function testEqual(val) {
+    if (val == 12) { // Change this line
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+testEqual(10);
