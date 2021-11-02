@@ -513,7 +513,11 @@ function cc(card) {
 
 }
 
-
+cc(2);
+cc(3);
+cc(7);
+cc('K');
+cc('A');
 
 const myDog = {
     // Only change code below this line
@@ -551,12 +555,3 @@ const testObj = {
 // Only change code below this line
 const entreeValue = testObj['an entree']; // Change this line
 const drinkValue = testObj["the drink"]; // Change this line
-
-
-
-
-cc(2);
-cc(3);
-cc(7);
-cc('K');
-cc('A');
