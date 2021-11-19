@@ -601,4 +601,3 @@ const myDog = {
     "bark": "woof"
 };
 delete myDog.tails;
-// Only change code below this line
